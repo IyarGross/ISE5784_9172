@@ -1,27 +1,13 @@
 package primitives;
 
-/** Wrapper class for java.jwt.Color The constructors operate with any
- * non-negative RGB values. The colors are maintained without upper limit of
- * 255. Some additional operations are added that are useful for manipulating
- * light's colors
- * @author Dan Zilberstein */
 public class Color {
-    /** The internal fields maintain RGB components as double numbers from 0 to
-     * whatever... */
+    
     private final Double3     rgb;
-
-    /** Black color = (0,0,0) */
     public static final Color BLACK = new Color();
 
     /** Default constructor - to generate Black Color (privately) */
     private Color() { rgb = Double3.ZERO; }
 
-    /** Constructor to generate a color according to RGB components Each component
-     * in
-     * range 0..255 (for printed white color) or more [for lights]
-     * @param r Red component
-     * @param g Green component
-     * @param b Blue component */
     public Color(double r, double g, double b) {
         if (r < 0 || g < 0 || b < 0) throw new IllegalArgumentException("Negative color component is illegal");
         rgb = new Double3(r, g, b);
