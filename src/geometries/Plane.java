@@ -8,8 +8,6 @@ import primitives.*;
 
 /**
  *Plane
- *
- * @author Idan and Eliyahu
  */
 public class Plane extends Geometry {
     public final Point q0 ;
