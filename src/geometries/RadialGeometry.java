@@ -1,8 +1,7 @@
 package geometries;
 
 /**
- * RadialGeometry class represents any radial geometry by saving its radius
- * @author roeygross
+  RadialGeometry class represents any radial geometry by saving its radius
  */
 public abstract class RadialGeometry extends Geometry {
     /**
