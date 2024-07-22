@@ -5,7 +5,6 @@ import static java.lang.Math.sqrt;
 
 /**
  * Point class represents a point at the 3D Cartesian coordinate
- * @author roeygross
  */
 public class Point {
     public static  Point ZERO= new Point(0,0,0);
