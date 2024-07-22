@@ -7,7 +7,6 @@ import java.util.List;
 
 /**
  * Ray class represents a ray (=vector that starts from a specific point) in 3D Cartesian coordinates
- * @author roeygross
  */
 public class Ray {
     private static final double DELTA = 0.1; //constant variable for changing ray starting point
