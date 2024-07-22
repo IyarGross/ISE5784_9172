@@ -13,7 +13,7 @@ public class  Vector  extends Point {
      * Vector constructions by the Double3 constructor
      * @param xyz point of the end of the vector while the start is at zero point
      */
-    Vector(Double3 xyz) {
+    public Vector(Double3 xyz) {
         super(xyz);
         if (xyz.equals(Double3.ZERO)) throw new IllegalArgumentException("Zero Vector can not be tolerate");
     }
