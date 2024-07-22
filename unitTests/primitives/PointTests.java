@@ -7,8 +7,6 @@ import static java.lang.Math.sqrt;
 import static org.junit.jupiter.api.Assertions.*;
 /**
  * Testing primitives.Point
- *
- * @author Yosef and Gross
  */
 class PointTest {
 
