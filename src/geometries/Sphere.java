@@ -5,7 +5,6 @@ import static java.lang.Math.sqrt;
 import primitives.*;
 /**
  * Sphere class represents a sphere at the 3D world
- * @author roeygross
  */
 public class Sphere extends RadialGeometry{
 
