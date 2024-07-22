@@ -96,10 +96,6 @@ public class Tube extends Geometry {
         if (v.equals(vt))
             return null;
 
-        /**
-         * link for formula explanation
-         * @link https://mrl.cs.nyu.edu/~dzorin/rend05/lecture2.pdf
-         */
 
         // glossary : (p,v) = dot product of p,v
         //              ∆p = vector from tube point to ray point
